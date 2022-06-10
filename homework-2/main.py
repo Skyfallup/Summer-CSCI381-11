@@ -9,7 +9,7 @@ tt555 8904Rev. Martin Luther King636-555-3226Snodgrass, Theodore5553642Carlamina
     #uses text as an input and tries to find patterns with characters a-z
     answer2=re.findall('[A-Za-z]{1,}', text)
     print(answer2)
-
+    #uses compile to get title,first,last
     regex = re.compile("([A-Z]{1}[a-z]{1,2}\.)\s([A-za-z]+)\s([A-za-z]+)")
     answer3 = regex.findall(text)
     print(answer3)
